@@ -8,7 +8,7 @@ import java.util.List;
 // o = o1 - o2, this will sort in ASC order
 // o = o2 - o1, this will sort in DESC order
 class IntegerComparator implements Comparator<Integer> {
-    //    if o is negative means o1 comes first and o2 comes second
+//    if o is negative means o1 comes first and o2 comes second
 //    if o is zero means o1 and o2 are equal
 //    if o is positive means o1 comes second and o2 comes first
     @Override

@@ -1,5 +1,6 @@
 package Generics;
 
+// Whole class is Generic
 public class Box<T> {
     private T value;
 

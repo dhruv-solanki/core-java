@@ -20,7 +20,7 @@ class Phone {
 public class GC {
     public static void main(String[] args) {
 //        here nokia is called strong reference, all references are strong reference
-//        that means they will no be removed by GC (Garbage Collector) until we assign null to them
+//        that means they will not be removed by GC (Garbage Collector) until we assign null to them
         Phone nokia = new Phone("Nokia", "1210");
         System.out.println(nokia);
 //        now we have assigned null to reference so there is no way to reach object in heap
@@ -46,7 +46,7 @@ public class GC {
         } catch(InterruptedException e) {
             System.out.println(e);
         }
-//        now GC will have removed the object from heap memory
+//        now GC will have removed the object from heap memory,
 //        and it will print the null
         System.out.println(weakRef.get());
     }

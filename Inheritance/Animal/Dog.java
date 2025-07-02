@@ -3,7 +3,7 @@ package Inheritance.Animal;
 public class Dog extends Animal {
     public Dog(String name) {
         this.name = name;
-        System.out.println("Dog contructor called!");
+        System.out.println("Dog constructor called!");
     }
 
     public void makeSound() {

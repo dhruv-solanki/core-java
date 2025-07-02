@@ -1,5 +1,6 @@
 package Generics;
 
+// If you want only Constructor to be Generic
 public class GenericConstructor {
     Object data;
 

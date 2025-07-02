@@ -29,7 +29,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 
 //        The LRU (Least Recently Used) entry will be removed
 //        either you use get or put method it is accessed
-//        so the removeEldestEntry method will run to remove eldest entry
+//        so the removeEldestEntry method will run to remove the eldest entry
         cache.put("Cameron", 93);
         System.out.println("After adding 6th Entry: " + cache);
     }

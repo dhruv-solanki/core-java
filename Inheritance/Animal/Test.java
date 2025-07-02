@@ -15,7 +15,7 @@ public class Test {
         Animal cat = new Animal();
         System.out.println(cat.getAnimal(tom));
 
-//        mthod overriding example: run time polymorphism
+//        method overriding example: run time polymorphism
         Animal goldy = new Dog("Goldy");
         goldy.makeSound();
 

@@ -9,7 +9,7 @@ public class Animal implements Species {
 
     public Animal() {
         count++;
-        System.out.println("Inheritance.Animal contructor called!");
+        System.out.println("Inheritance.Animal constructor called!");
     }
 
     static {

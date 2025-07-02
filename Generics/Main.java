@@ -2,6 +2,18 @@ package Generics;
 
 import java.util.List;
 
+// Generics in Java is a powerful feature
+// that enables type safety and code reusability by
+// allowing classes, interfaces, and methods to
+// operate on objects of various types,
+// while still providing compile-time type checking.
+
+// ? - Wildcard - when we don't know types in advance
+
+// after compilation type will be removed from the code
+// so it will not there in byte code
+// this is called type eraser
+
 // you can not create generic exception class
 // because exception are thrown at runtime
 // as we already know that in Generics types are erased at runtime
@@ -43,13 +55,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-//        type safe
-//        no need to do manual casting
-//        gives compile type checking
-
-//        after compilation type will be removed from the code
-//        so it will not there in byte code
-//        this is called type eraser
         Box<String> box = new Box<>();
         box.setValue("Hello");
         String s = box.getValue();

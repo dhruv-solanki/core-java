@@ -19,7 +19,7 @@ public class TerminalOperationsExample {
         System.out.println(collect2);
 
 //       2. forEach, forEachOrdered - works with parallel streams
-//        it mains the order of elements in parallel streams
+//        it maintains the order of elements in parallel streams
         list.stream().forEach((x) -> System.out.println(x));
         System.out.println("Parallel stream with forEach:");
         list.parallelStream().forEach((x) -> System.out.println(x));

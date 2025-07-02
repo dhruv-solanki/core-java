@@ -76,7 +76,7 @@ public class HashCodeAndEqualsExample {
         HashMap<Person, String> map = new HashMap<>();
         map.put(p1, "Engineer"); // hashcode1 -> index1
         map.put(p2, "Designer"); // hashcode2 -> index2
-//        it will add new entry instead of replacing it
+//        it will not add new entry instead it will replace it
         map.put(p3, "Manager"); // hashcode3 -> index3
         System.out.println("Size of Map: " + map.size());
         System.out.println(map);
